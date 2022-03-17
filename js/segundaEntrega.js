@@ -1,6 +1,6 @@
 alert("Bienvenido a la calculadora mas inteligente del mundo! Saludos");
 
-alert("Escribir SALIR " + "para finalizar la calculadora");
+alert("Escribir SALIR para finalizar la calculadora");
 
 let esc = prompt("¿Que operacion desea realizar?");
 
@@ -42,7 +42,6 @@ while (esc.toLowerCase() != "salir") {
       resta(primerNumero, segundoNumero);
       alert(resultadoResta);
       esc = prompt("¿Que operacion desea realizar?");
-
       break;
     case "dividir":
       primerNumero = parseInt(prompt("Primer numero para la operacion"));
@@ -50,7 +49,6 @@ while (esc.toLowerCase() != "salir") {
       dividir(primerNumero, segundoNumero);
       alert(resultadoDividir);
       esc = prompt("¿Que operacion desea realizar?");
-
       break;
     case "multiplicar":
       primerNumero = parseInt(prompt("Primer numero para la operacion"));
@@ -58,7 +56,6 @@ while (esc.toLowerCase() != "salir") {
       multiplicar(primerNumero, segundoNumero);
       alert(resultadoMultiplicar);
       esc = prompt("¿Que operacion desea realizar?");
-
       break;
     default:
       alert("No puso ninguna operacion");
